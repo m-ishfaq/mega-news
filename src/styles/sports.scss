@@ -1,0 +1,28 @@
+#sports {
+    // margin: 4.5vmax auto;
+    // margin-top: 6.5vmax;
+    padding: 6vmax;
+    place-items: center;
+
+    > div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.2vmax;
+        width: 85%;
+
+        > img {
+            &:nth-child(1) {
+                width: 30%;
+            }
+
+            &:nth-child(2) {
+                width: 50%;
+            }
+
+            &:nth-child(3) {
+                width: 38%;
+            }
+        } 
+    }
+}

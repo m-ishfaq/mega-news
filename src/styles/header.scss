@@ -1,0 +1,99 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85vw;
+    margin: 0.7em auto;
+    // position: sticky;
+    // top: 0;
+    // z-index: 1000;
+
+    > .left {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 50%;
+        padding: 0.3rem;
+
+        > a {
+            text-decoration: none;
+            color: $primary;
+            font: 700 1.3rem $text1;
+            width: fit-content;
+        }
+
+        > nav {
+            display: flex;
+            justify-content: flex-start;
+            width: 75%;
+            align-items: center;
+            gap: 1rem;
+            font-weight: 600;
+
+            > a {
+                &:hover {
+                    color: $primary;
+                }
+            }
+        }
+    }
+
+    .right {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 50%;
+        padding: 0.3rem;
+
+        > div {
+            &:first-of-type {
+                background-color: $dark_reverse_2;
+                width: 70%;
+
+                > input {
+                    margin: 0 !important;
+                    padding: 0 !important;
+
+                    &::placeholder {
+                        color: $white_reverse;
+                        font: 400 14px $text1;
+                    }
+                }
+            }
+
+            &:last-of-type {
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                width: 30%;
+
+                > div {
+                    > button {
+                        background-color: transparent !important;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding-right: 0;
+
+                        > span {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            gap: 0.5rem;
+                        }
+                    }
+
+                    > a {
+                        border-radius: 0.7rem;
+                        background-color: $dark_reverse_2;
+                        padding: 0.8rem;
+
+                        &:hover {
+                            color: $primary;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

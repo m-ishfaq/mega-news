@@ -1,0 +1,357 @@
+{
+    "tags" : [
+        {
+            "name" : "Abstract",
+            "image"  : "https://i.imgur.com/iNPCDxn.png"
+        },
+        {
+            "name" : "Pet",
+            "image"  : "https://i.imgur.com/dVZWBbH.png"
+        },
+        {
+            "name" : "Animal",
+            "image"  : "https://i.imgur.com/lrkpORo.png"
+        },
+        {
+            "name" : "Cars",
+            "image"  : "https://i.imgur.com/ctpDtPS.png"
+        },
+        {
+            "name" : "Music",
+            "image"  : "https://i.imgur.com/O96IY9K.png"
+        },
+        {
+            "name" : "Sports",
+            "image"  : "https://i.imgur.com/PvGzgrp.png"
+        },
+        {
+            "name" : "Food",
+            "image"  : "https://i.imgur.com/pQ2mGjc.png"
+        },
+        {
+            "name" : "Technology",
+            "image"  : "https://i.imgur.com/leqOg6b.png"
+        }
+    ],
+    "sliders" : {
+        "big" : [
+            {
+                "title" : "Why I Stopped Using Multiple Monitors",
+                "img" : "https://i.imgur.com/Ii8KXpq.png",
+                "desc" : "A Single Monitor Manifesto - Many Developers Believe Multiple Monitors Improve Productivity. Studies Have Proven it, Right? Well, Keep It in Mind Many Of..."
+            },
+            {
+                "title" : "Why I Stopped Using Multiple Monitors",
+                "img" : "https://i.imgur.com/Ii8KXpq.png",
+                "desc" : "A Single Monitor Manifesto - Many Developers Believe Multiple Monitors Improve Productivity. Studies Have Proven it, Right? Well, Keep It in Mind Many Of..."
+            }
+        ], 
+        "single" : [
+            {
+                "title" : "How to Drive a car safely",
+                "img" : "https://i.imgur.com/IYPYG0D.png",
+                "desc" : "Ah, The Joy Of The Open Road. It's A Good Feeling. But If You're New To Driving, You May... "
+            },
+            {
+                "title" : "How To Make A Dance Music",
+                "img" : "https://i.imgur.com/z2A1Ju4.png",
+                "desc" : "Download Torrents From Verified or Trusted Uploaders. If You are Bit Torrent User Looking..."
+            }
+        ]
+    },
+    "posts" : {
+        "popular" : [
+            {
+                "title" : "Opening Day Of Boating Season, Seattle, WA",
+                "desc" : "Of Course The Puget Sound is Very Watery. And Where There Is Water, There Are Boats. Today Is...",
+                "image" : "https://i.imgur.com/5losY9H.png",
+                "date" : "August 18, 2022",
+                "link" : "opening-day-of-boating-season-seattle-wa",
+                "writer" : {
+                    "name" : "James",
+                    "avatar" : "https://i.imgur.com/XrgjeXv.png"
+                }
+            },
+            {
+                "title" : "How To Choose The Right Laptop For",
+                "desc" : "Choosing The Right Laptop For Programming Can  be A Tough Process. It's Easy To Get Confused...",
+                "image" : "https://i.imgur.com/B1eeOc7.png",
+                "date" : "July 25, 2022",
+                "link" : "how-to-choose-the-right-laptop-for-programming",
+                "writer" : {
+                    "name" : "Louis Hoebregts",
+                    "avatar" : "https://i.imgur.com/5V8n0ZT.png"
+                }
+            },
+            {
+                "title" : "How We Built The First Real Self Driving Car",
+                "desc" : "Electric Self-Driving Cars Will Save Millions Of Lives And Significantly Accelerate The World's... ",
+                "image" : "https://i.imgur.com/tgIEzcy.png",
+                "date" : "July 12, 2022",
+                "link" : "how-we-built-the-first-real-self-driving-car",
+                "writer" : {
+                    "name" : "Mary",
+                    "avatar" : "https://i.imgur.com/b5VT3rf.png"
+                }
+            },
+            {
+                "title" : "How To Persuade Your Parents To Buy Fast...",
+                "desc" : "Parents Often Do not Want To Buy Fast Food. They May Be Worried That It's Too Expensive, Unhealth...",
+                "image" : "https://i.imgur.com/KdOGQAL.png",
+                "date" : "May 10, 2022",
+                "link" : "how-to-persuade-your-parents-to-buy-fast-food",
+                "writer" : {
+                    "name" : "Jon Kantner",
+                    "avatar" : "https://i.imgur.com/L9XMdQz.png"
+                }
+            }
+        ],
+        "new" : [
+            {
+                "title" : "12 Mobile UX Design Trends For 2022",
+                "desc" : "Things Move Quickly In Mobile App Universe. To Succeed In The Field Of Mobile UX Design, Designers...",
+                "image" : "https://i.imgur.com/5VkLh7u.png",
+                "date" : "July 14, 2022",
+                "link" : "12-mobile-ux-design-trends-for-2022",
+                "writer" : {
+                    "name" : "Jon Kantner",
+                    "avatar" : "https://i.imgur.com/L9XMdQz.png"
+                }
+            },
+            {
+                "title" : "No Boat BottomFish: Jelly Fishing On The...",
+                "desc" : "Cast From The Rocks To Bring Home Fresh Fish Tacos In This Iconic Spring And Summer Fishery - Are You...",
+                "image" : "https://i.imgur.com/PlQGJ4O.png",
+                "date" : "July 12, 2022",
+                "link" : "no-boat-bottomfish-jelly-fishing-on-the",
+                "writer" : {
+                    "name" : "Louis Hoebregts",
+                    "avatar" : "https://i.imgur.com/5V8n0ZT.png"
+                }
+            },
+            {
+                "title" : "What A Disabled Squirrel Taught Me About Li...",
+                "desc" : "Why It Helps To Know What It's Like, And The Exquisite Beauty Of Empathy These Days, The Wod Patio Area...",
+                "image" : "https://i.imgur.com/y5U5i6L.png",
+                "date" : "July 12, 2022",
+                "link" : "what-a-disabled-squirrel-taught-me-about-life",
+                "writer" : {
+                    "name" : "James",
+                    "avatar" : "https://i.imgur.com/XrgjeXv.png"
+                }
+            },
+            {
+                "title" : "Becoming A Self Driving Car And Machine...",
+                "desc" : "How I Left My Full Time Job, Studied At Udacity, And Landed A Job At BMW. The Past Year Has Been Quite...",
+                "image" : "https://i.imgur.com/3Wo60Zh.png",
+                "date" : "May 10, 2022",
+                "link" : "becoming-a-self-driving-car-and-machine-learning-engineer",
+                "writer" : {
+                    "name" : "Cassie Evans",
+                    "avatar" : "https://i.imgur.com/5vkv73I.png"
+                }
+            },
+            {
+                "title" : "How To Become A Master Designer",
+                "desc" : "Many Outsiders Believe That Designers Are Unicorns, Gifted Or Special In Some Way. We Have An Innate...",
+                "image" : "https://i.imgur.com/5b9ZhoT.png",
+                "date" : "July 10, 2022",
+                "link" : "how-to-become-a-master-designer",
+                "writer" : {
+                    "name" : "Linda",
+                    "avatar" : "https://i.imgur.com/nxlO8Zr.png"
+                }
+            },
+            {
+                "title" : "This Free Course Can Teach You Music...",
+                "desc" : "A Berlin Based Music Software Company Just Released A Free Interactive Music Course That Runs Right In Yo...",
+                "image" : "https://i.imgur.com/1AkCfuf.png",
+                "date" : "May 09, 2022",
+                "link" : "this-free-free-course-can-teach-you-music",
+                "writer" : {
+                    "name" : "Patricia",
+                    "avatar" : "https://i.imgur.com/71Xw4UZ.png"
+                }
+            }
+        ],
+        "video" : [
+            {
+                "title" : "How Music Affects Your Brain (Plus 11 Artists To Listen To At Work)",
+                "desc" : "You've Read All Your Free Member Only Stories, Become A Member To Get Unlimited Access. Your Membership Fee Supports The Voices You Want To Hear More From",
+                "image" : "https://i.imgur.com/nHOIhmv.png",
+                "link" : "how-music-affects-your-brain-plus-11-artists-to-listen-to-at-work"
+            },
+            {
+                "title" : "5 Reasons Why You Should Wrap...",
+                "desc" : "So, You Finally Went To Your First Boxing Class And Learned The Basics Of Sports. You Also Learned It's Recommended To Wrap Your Hands Before Putting On The Gloves. But There Are Times When You Just...",
+                "image" : "https://i.imgur.com/Dw0OGIu.png",
+                "link" : "5-reasons-why-you-should-wrap-hands"
+            },
+            {
+                "title" : "Music Genre Classification With...",
+                "desc" : "A Guide To Analyze Audio Music Signals In Python- Music Is Like A Mirror And It Tells People A Lot About Who You Are And What You Care About. Wether You Like It Or Not, You Have Read All Your Free...",
+                "image" : "https://i.imgur.com/Ngxv1Qh.png",
+                "link" : "music-genre-classification-with-python"
+            },
+            {
+                "title" : "Why I Stopped Using Multiple Monitors",
+                "desc" : "So, You Finally Went To Your First Boxing Class And Learned The Basics Of Sports. You Also Learned It's Recommended To Wrap Your Hands Before Putting On The Gloves. But There Are Times When You Just...",
+                "image" : "https://i.imgur.com/ZpLmTSh.png",
+                "link" : "why-i-stopped-using-multiple-monitors"
+            },
+            {
+                "title" : "No Boat BottomFish: Jelly Fishing On The...",
+                "desc" : "A Guide To Analyze Audio Music Signals In Python- Music Is Like A Mirror And It Tells People A Lot About Who You Are And What You Care About. Wether You Like It Or Not, You Have Read All Your Free...",
+                "image" : "https://i.imgur.com/P1ZihUi.png",
+                "link" : "no-boat-bottomfish-jelly-fishing-on-the"
+            }
+        ],
+        "trendy" : [
+            {
+                "title" : "How To Build A Self Driving Car In One Month",
+                "desc" : "Can I Learn The Necessary Computer Science To Build The Software Part Of A Self Driving Car In...",
+                "image" : "https://i.imgur.com/Dkfryge.png",
+                "date" : "July 14, 2022",
+                "link" : "how-to-build-a-self-driving-car-in-one-month-",
+                "writer" : {
+                    "name" : "Mary",
+                    "avatar" : "https://i.imgur.com/b5VT3rf.png"
+                }
+            },
+            {
+                "title" : "Self-Improvement Has Become An Extreme...",
+                "desc" : "What We Are Told We Must Do Each Day To Develop And Be Successful Has Gone Out Of Control. We...",
+                "image" : "https://i.imgur.com/8B6zMxL.png",
+                "date" : "July 25, 2022",
+                "link" : "self-improvement-has-become-an-extreme-future",
+                "writer" : {
+                    "name" : "James",
+                    "avatar" : "https://i.imgur.com/XrgjeXv.png"
+                }
+            },
+            {
+                "title" : "10 Cooking Lessons To Use In Everyday Life",
+                "desc" : "I Recently Upon By This Quote Of Paul Theroux: 'Cooking Requires Confident Guesswork...",
+                "image" : "https://i.imgur.com/37wYuXU.png",
+                "date" : "July 12, 2022",
+                "link" : "10-cooking-lessons-to-use-in-everyday-life",
+                "writer" : {
+                    "name" : "Jon Kantner",
+                    "avatar" : "https://i.imgur.com/L9XMdQz.png"
+                }
+            },
+            {
+                "title" : "Typography Can Make Or Break Your Design...",
+                "desc" : "One Of The Most Important Skills You Can Learn As A Designer IS How To Choose Type. This Is...",
+                "image" : "https://i.imgur.com/OHntlYf.png",
+                "date" : "May 10, 2022",
+                "link" : "typography-can-make-or-break-your-design",
+                "writer" : {
+                    "name" : "Robert",
+                    "avatar" : "https://i.imgur.com/5V8n0ZT.png"
+                }
+            }
+        ],
+        "top" : [
+            {
+                "title" : "House Boating On Lake Shastra",
+                "desc" : "Cast From The Rocks To Bring Home Fresh Fish Tacos In This Iconic Spring And Summer Fishery - Are You...",
+                "image" : "https://i.imgur.com/PlQGJ4O.png",
+                "date" : "July 12, 2022",
+                "link" : "house-boating-on-lake-shastra",
+                "writer" : {
+                    "name" : "James",
+                    "avatar" : "https://i.imgur.com/5V8n0ZT.png"
+                }
+            },
+            {
+                "title" : "How To Choose The Right Laptop For",
+                "desc" : "Choosing The Right Laptop For Programming Can  be A Tough Process. It's Easy To Get Confused...",
+                "image" : "https://i.imgur.com/B1eeOc7.png",
+                "date" : "July 25, 2022",
+                "link" : "how-to-choose-the-right-laptop-for-programming",
+                "writer" : {
+                    "name" : "Robert",
+                    "avatar" : "https://i.imgur.com/5V8n0ZT.png"
+                }
+            },
+            {
+                "title" : "Why Buy A New Car Makes More Sense...",
+                "desc" : "Can I Learn The Necessary Computer Science To Build The Software Part Of A Self Driving Car In...",
+                "image" : "https://i.imgur.com/Dkfryge.png",
+                "date" : "July 14, 2022",
+                "link" : "how-to-build-a-self-driving-car-in-one-month-",
+                "writer" : {
+                    "name" : "Mary",
+                    "avatar" : "https://i.imgur.com/b5VT3rf.png"
+                }
+            },
+            {
+                "title" : "Lasagna Is But A Pasta Cake",
+                "desc" : "Parents Often Do not Want To Buy Fast Food. They May Be Worried That It's Too Expensive, Unhealth...",
+                "image" : "https://i.imgur.com/KdOGQAL.png",
+                "date" : "May 10, 2022",
+                "link" : "how-to-persuade-your-parents-to-buy-fast-food",
+                "writer" : {
+                    "name" : "Jon Kantner",
+                    "avatar" : "https://i.imgur.com/L9XMdQz.png"
+                }
+            }
+        ]
+    },
+    "bg" : {
+        "sports" : "https://i.imgur.com/Wel8nuU.png"
+    },
+    "images" : {
+        "home" : {
+            "calendar" : "https://i.imgur.com/gv7kKhB.png",
+            "club" : "https://i.imgur.com/4i030C4.png",
+            "competition" : "https://i.imgur.com/PIiuao7.png", 
+            "weather" : {
+                "chart" : "https://i.imgur.com/aDc9jbv.png",
+                "city" : [
+                    {
+                        "image" : "https://i.imgur.com/qAAS2Jj.png",
+                        "bg" : "https://i.imgur.com/KTD6vyA.png",
+                        "name" : "Ankara",
+                        "precipitation" : "0",
+                        "humidity" : "41",
+                        "wind" : "27",
+                        "date" : "Tuesday 02:00 PM",
+                        "temp" : "32"
+                    },
+                    {
+                        "image" : "https://i.imgur.com/3aGaKqN.png",
+                        "bg" : "https://i.imgur.com/PkNAgMd.png",
+                        "name" : "Alaska",
+                        "precipitation" : "18",
+                        "humidity" : "32",
+                        "wind" : "16",
+                        "date" : "Tuesday 03:00 PM",
+                        "temp" : "16"
+                    },
+                    {
+                        "image" : "https://i.imgur.com/q0VgE0b.png",
+                        "bg" : "https://i.imgur.com/4aO5tNt.png",
+                        "name" : "Berlin",
+                        "precipitation" : "70",
+                        "humidity" : "50",
+                        "wind" : "14",
+                        "date" : "Tuesday 01:00 PM",
+                        "temp" : "24"
+                    },
+                    {
+                        "image" : "https://i.imgur.com/KxrFoZe.png",
+                        "bg" : "https://i.imgur.com/xaSefl9.png",
+                        "name" : "Peris",
+                        "precipitation" : "10",
+                        "humidity" : "44",
+                        "wind" : "14",
+                        "date" : "Tuesday 10:00 PM",
+                        "temp" : "27"
+                    }
+                ]
+            }
+        }
+    }
+}

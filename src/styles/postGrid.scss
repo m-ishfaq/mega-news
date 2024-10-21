@@ -1,0 +1,12 @@
+#new {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 85vw;
+    margin: 0.5rem auto;
+    margin-bottom: 0.8vmax;
+    background-color: #FAFAFA;
+    border-radius: 0.7vmax;
+    padding: 0.7vmax;
+    gap: 1rem;
+}

@@ -1,0 +1,251 @@
+#weatherContainer {
+    background-color: #F5F5F5;
+    margin: 4vmax 0;
+    padding: 1px;
+    // height: 550px;
+
+    > #weather {
+        display: flex;
+        justify-content: space-between;
+        // align-items: flex-start;
+        width: 85vw;
+        margin: 1.5em auto;
+        // gap: 1vmax;
+        // padding: 0.8rem;
+        position: relative;
+
+        > div {
+            &:first-of-type {
+                width: 50%;
+                background-color: $white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 1.5vmax 1vmax;
+                flex-direction: column;
+                border-radius: 0.7vmax;
+                gap: 2vmax;
+
+                #wHeader {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+        
+                    > div {
+                        &:first-child {
+                            > p {
+                                font: 400 45px $text1;
+                                position: relative;
+        
+                                > span {
+                                    font: 500 1vmax $text1;
+                                    position: absolute;
+                                    top: 1%;
+                                }
+                            }
+        
+                            > div {
+                                justify-content: space-between;
+                                margin: 0 2vmax;
+                                align-items: center;
+                                gap: 0;
+        
+                                > span {
+                                    font: 400 0.9vmax $text1;
+                                    letter-spacing:1px;
+                                    line-height: 15px;
+                                }
+                            }
+                        }
+        
+                        &:last-child {
+                            > span {
+                                &:first-of-type {
+                                    font: 700 1.2vmax $text1;
+                                }
+        
+                                &:last-of-type {
+                                    font: 400 0.9vmax $text1;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                #wDays {
+                    width: 100%;
+                    justify-content: space-between;
+                    align-items: center;
+                    grid-template-columns: repeat(8, 1fr);
+                    gap: 0.4vmax;
+                }
+            }
+
+            &:last-of-type {
+                position: relative;
+                border-radius: 0.7vmax;
+                width: 49%;
+                justify-content: flex-start;
+                align-items: flex-start;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(2, 1fr);
+                gap: 0.5rem;
+
+                > a {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-start;
+                    padding: 0.4vmax;
+                    height: 150px;
+                    background-color: $white;
+                    border-radius: 0.7vmax;
+
+                    &:hover > div > h4 {
+                        color: $primary;
+                    }
+
+                    > img {
+                        width: 45%;
+                        height: 100%;
+                        border-radius: 0.7vmax;
+                    }
+
+                    > div {
+                        justify-content: space-between;
+                        align-items: flex-start;
+                        justify-content: space-between;
+                        height: 100%;
+                        margin: 0 0.4rem;
+
+                        > h4 {
+                            font: 600 0.9vmax $text1;
+                        }
+
+                        > p {
+                            font: 400 0.7vmax $text1;
+                            line-height: 130%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#day {
+    &:first-of-type {
+        background-color: $dark_reverse_2;
+    }
+    
+    border-radius: 0.7vmax;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.9vmax 0.4vmax;
+
+    > span {
+        font: 600 0.8vmax $text1;
+        width: 100%;
+        text-align: center;
+    }
+
+    > svg {
+        width: 45px;
+        height: 45px;
+        width: 100%;
+    }
+
+    > p {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+
+        > span {
+            font: 500 0.6vmax $text1;
+
+            &:last-of-type {
+                font: 300 0.7vmax $text1;
+            }
+        }
+    }
+}
+
+#city {
+    border-radius: 0.7vmax;
+    position: relative;
+    margin: 0;
+
+    > img {
+        width: 100%;
+        height: 100%;
+    }
+
+    > div {
+        position: absolute;
+        top: 1%;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        #cHeader {
+            width: 90%;
+            display: flex;
+            height: 35%;
+            justify-content: space-between;
+            align-items: baseline;
+            
+            > div {
+                &:first-of-type {
+                    span {
+                        font: 400 0.7vmax $text1;
+                        line-height: 100%;
+                    }
+                }
+
+                &:last-of-type {
+                    padding-top: 0.4vmax;
+
+                    > span {
+                        &:first-of-type {
+                            font: 600 1.1vmax $text1;
+                        }
+
+                        &:last-of-type {
+                            font: 400 0.7vmax $text1;
+                        }
+                    }
+                }
+            }
+
+        }
+
+        #wTemp {
+            width: 100%;
+            height: 30%;
+            justify-content: center;
+            align-items: center;
+            color: $white;
+
+            > svg {
+                width: 60px;
+            }
+
+            > p {
+                font: 400 30px $text1;
+                position: relative;
+
+                > span {
+                    font: 500 1vmax $text1;
+                    position: absolute;
+                    top: 1%;
+                }
+            }
+        }
+    }
+}

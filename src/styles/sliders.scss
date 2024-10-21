@@ -1,0 +1,110 @@
+#sliders {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    justify-content: space-between;
+    align-items: center;
+    width: 85vw;
+    gap: 10px;
+    margin: 1.5em auto;
+
+    > div {
+        width: 100%;
+        height: 100%;
+
+        .slider, .css-84zodg, .carousel-slider, .slide, .slider-wrapper {
+            height: 100%;
+        }
+
+        .carousel .control-next.control-arrow {
+            right: 7px;
+            border-radius: 0.8rem;
+        }
+
+        .carousel .control-prev.control-arrow {
+            left: 7px;
+            border-radius: 0.8rem;
+        }
+
+        .control-arrow {
+            background: $white;
+            top: 50%;
+            border: 0;
+            height: fit-content;
+            transform: translateY(-50%);
+        }
+
+        .control-dots {
+            width: fit-content;
+            position: absolute;
+            right: 2%;
+            bottom: 1%;
+        }
+
+        .carousel .control-dots .dot {
+            margin: 0 5px;
+        }
+
+        .carousel .control-dots .dot.selected {
+            background-color: $primary;
+        }
+
+        .control-next::before {
+            border-left: 11px solid $dark;
+        }
+
+        .control-prev::before {
+            border-right: 11px solid $dark;
+        }
+
+        a {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+            position: relative;
+            
+            &:hover h4 {
+                color: $primary
+            }
+
+            > img {
+                width: 100%;
+                height: 100%;       
+                border-radius: 0.7rem;
+            }
+
+            > div {
+                position: absolute;
+                background-color: rgba(255, 255, 255, 0.7);
+                border-radius: 0.7rem;
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                flex-direction: column;
+                color: $dark_1;
+                padding: 1vmax;
+                margin: 0.5vmax;
+                height: 30%;
+                bottom: 0%;
+                right: 0%;
+
+                > h4 {
+                    font: 600 1.2vmax $text1;
+                    padding: 10px 0;
+                }
+
+                > p {
+                    font: 400 1vmax $text1;
+                    padding: 10px 0;
+                }
+            }
+
+            #carouselItemText {
+                > p {
+                    width: 80%;
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
