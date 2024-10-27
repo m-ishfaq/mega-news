@@ -1,0 +1,102 @@
+#profilePostGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 85vw;
+    margin: 0.5rem auto;
+    margin-bottom: 0.8vmax;
+    background-color: #FAFAFA;
+    border-radius: 0.7vmax;
+    padding: 0.7vmax;
+    gap: 1rem;
+
+    > #profilePost {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        border-radius: 0.7rem;
+        min-height: 300px;
+        position: relative;
+        background-color: $black_light_2;
+        padding: 0.5rem;
+    
+        &:hover > a h4 {
+            color: $primary;
+        }
+    
+        > a > img {
+            width: 100%;
+            height: 180px;
+            border-radius: 0.7rem;
+        }
+    
+        > a > div {
+            > h4 {
+                font: 500 0.9vmax $text1;
+                padding: 10px 0;
+            }
+    
+            > p {
+                font: 400 0.8vmax $text1;
+                padding: 10px 0;
+            }
+        }
+    
+        > #actionBtn {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0;
+            width: 95%;
+            border-radius: 0.7vmax;
+            background-color: $dark_reverse_1;
+            padding: 0.5vmax;
+            position: absolute;
+            bottom: 5%;
+
+            > #infoZone {
+                justify-content: space-between;
+                align-items: center;
+                gap: 1vmax;
+                cursor: pointer;
+
+                > div {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    gap: 0.2vmax;
+
+                    &:hover {
+                        color: $primary;
+                    }
+
+                    > span {
+                        font: 400 13px $text1;
+                    }
+
+                    > svg {
+                        font-size: 16px;
+                    }
+                }
+            }
+
+            > #dangerZone > div {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 0.2vmax;
+                
+                > svg {
+                    cursor: pointer;
+                    font-size: 20px;
+
+                    &:hover {
+                        color: $primary;
+                        fill: $primary;
+                    }
+
+                }
+            } 
+        }
+    }
+}

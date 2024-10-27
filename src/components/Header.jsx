@@ -36,12 +36,12 @@ const Header = () => {
                 Dev360
               </MenuButton>
               <MenuList>
-                <MenuItem><Link to={'/my-account'} >Profile</Link></MenuItem>
+                <MenuItem><Link to={'/profile'} >Profile</Link></MenuItem>
                 <MenuItem><Link to={'/settings'} >Settings</Link></MenuItem>
                 <MenuItem><Link to={'/logout'} >Logout</Link></MenuItem>
               </MenuList>
             </Menu>
-            <Link to={'my-bookmarks'} ><FaRegBookmark /></Link>
+            <Link to={'/profile/saved-posts'} ><FaRegBookmark /></Link>
           </HStack>
 
         </HStack>

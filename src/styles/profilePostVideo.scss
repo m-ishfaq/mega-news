@@ -1,0 +1,276 @@
+#subMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5vmax;
+    margin: 1vmax 0.7vmax;
+    
+    > #menuItem {
+        font: 400 14px $text1;
+        position: relative;
+        display: inline-block;   
+        padding: 0.7vmax 1vmax;
+
+        &:hover {
+            color: $primary;
+        }
+    }
+    
+    [data-active="true"] {
+        font-weight: 500 !important;
+        background-color: $dark_reverse_2;
+        border-radius: 0.7vmax;
+
+        &::before {
+            content: '•';
+            color: $primary;
+            font-size: 15px;
+            margin-right: 5px;
+        }
+    }
+}
+
+#postForm {
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: 3fr 1fr;
+    gap: 1vmax;
+    width: 100%;
+    margin: 2vmax 0;
+
+    > #inputs {
+        justify-content: space-between;
+        width: 100%;
+        align-items: flex-start;
+        gap: 1vmax;
+        // height: 100%;
+        margin-bottom: 2vmax;
+
+        > div {
+            width: 100%;
+            height: 100%;
+
+            .chakra-form-control {
+                width: 50%;
+    
+                #inputSimple-label {
+                    font: 500 0.9vmax $text1;
+                }
+    
+                #inputSimple {
+                    width: 100%;
+                    padding: 0.5vmax;
+                    background-color: $dark_reverse_2;
+                    border-radius: 0.7vmax;
+                }
+            }
+
+            .chakra-form-control {
+                width: 50%;
+    
+                #inputTag-label {
+                    font: 500 0.9vmax $text1;
+                }
+
+                #inputTag {
+                    background-color: $dark_reverse_2;
+                    border-radius: 0.5vmax 0 0 0.5vmax;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    
+                    > button {
+                        background-color: #e9e9e9;
+                    }
+                }
+            }
+
+            #textArea-label {
+                font: 500 0.9vmax $text1;
+
+                &:last-of-type {
+                    margin-top: 1vmax;
+                }
+            }
+
+            > #textAreaBox {
+                justify-content: space-between;
+                align-items: flex-start;
+                padding: 1.2vmax;
+                box-shadow: 0 2px 3px #d5d5d5;
+                border-radius: 0.7vmax;
+
+                > div {
+                    justify-content: flex-start;
+                    align-items: center;
+                    gap: 1vmax;
+
+                    > #toolbarBtn {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        gap: 0.5vmax;
+                        padding: 0.6vmax;
+                        border-radius: 0.7vmax;
+                        background-color: $dark_reverse_2;
+                        cursor: pointer;
+                        color: $white_2;
+
+                        &:hover {
+                            color: $primary;
+                        }
+
+                        > p {
+                            font: 400 0.9vmax $text1;
+                        }
+                    }
+                }
+
+                #textArea {
+                    width: 100%;
+                    padding: 0.5vmax;
+                    background-color: $dark_reverse_2;
+                    border-radius: 0.7vmax;
+
+                    &::placeholder {
+                        font: 400 1vmax $text1;
+                    }
+                }
+            }
+        }
+
+        #postGallery {
+            justify-content: space-between;
+            width: 100%;
+            align-items: flex-start;
+
+            > div {
+                &:first-of-type {
+                    width: 40% !important;
+                    height: 100%;
+                }
+
+                &:last-of-type {
+                    width: 60%;
+                    grid-template-columns: repeat(5, 1fr);
+                    grid-template-rows: repeat(2, 1fr);
+                    gap: 0.5vmax;
+                    height: 100%;
+
+                    > div {
+                        position: relative;
+                        height: 100%;
+                        width: 100%;
+                        cursor: pointer;
+    
+                        &:hover #icon {
+                            opacity: 1;
+                        }
+    
+                        &:hover img {
+                            filter: blur(2px);
+                        }
+    
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 0.7vmax;
+                            transition: filter 0.3s ease;
+                        }
+        
+                        > span {
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            opacity: 0;
+                            transition: opacity 0.3s ease;
+                            color: $dark_reverse_2;
+                            
+                            > svg {
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    > #media {
+        justify-content: flex-start;
+        width: 100%;
+        align-items: flex-start;
+        gap: 3vmax;
+        height: 100%;
+        margin-bottom: 2vmax;   
+
+        > #actionBtn {
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            gap: 0.4vmax;
+
+            > #toolbarBtn {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 0.5vmax;
+                padding: 0.6vmax 1vmax;
+                border-radius: 0.7vmax;
+                background-color: $dark_reverse_2;
+                cursor: pointer;
+                color: $white_2;
+
+                &:hover {
+                    color: $primary;
+                }
+
+                > p {
+                    font: 400 1vmax $text1;
+                }
+            }
+
+            [data-type="action"] {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                padding: 1vmax;
+                border-radius: 0.7vmax;
+                color: $white !important;
+                gap: 0.4vmax;
+                background-color: $primary_1 !important;
+                float: right;
+    
+                &:hover {
+                    color: $dark !important;
+                    // border: 0.1px solid $primary; 
+                    background-color: $dark_reverse_2 !important;
+                }
+            }
+        }
+    }
+}
+
+#fileInput-label {
+    font: 500 0.9vmax $text1;
+}
+
+#fileInputBox {
+    justify-content: center;
+    align-items: center;
+    cursor: pointer ;
+    background-color: $dark_reverse_2;
+    padding: 1.2vmax;
+    border-radius: 0.7vmax;
+    width: 100%;
+    gap: 0.4vmax;
+    height: 100%;
+
+    > p {
+        font: 300 0.8vmax $text1;
+    }
+}

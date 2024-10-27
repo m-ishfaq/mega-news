@@ -1,0 +1,87 @@
+#banner {
+    width: 100%;
+    border-radius: 0.7vmax;
+    height: 100%;
+    background-color: $dark_reverse_2;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 0.7vmax;
+    padding: 0.4vmax;
+
+    > #img {
+        width: 100%;
+    }
+
+    > #header {
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        padding: 0.2vmax;
+
+        > #bio {
+            justify-content: flex-start;
+            gap: 0.3vmax;
+            align-content: center;
+    
+            > img {
+                border-radius: 0.7vmax;
+                width: 55px;
+                height: 55px;
+            }
+    
+            > h1 {
+                font: 500 1vmax $text1;
+            }
+        }
+
+        > #editBtn {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: $primary;
+            gap: 0.3vmax;
+
+            &:hover {
+                color: $primary_1;
+            }
+
+            > a {
+                font: 400 0.9vmax $text1;
+            }
+        }
+
+        > #menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1.5vmax;
+            
+            > #menuItem {
+                font: 400 16px $text1;
+                position: relative;
+                display: inline-block;   
+                padding-bottom: 0.3vmax;
+
+                &:hover {
+                    color: $primary;
+                }
+            }
+            
+            [data-active="true"] {
+                font-weight: 500 !important;
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    margin-top: 2vmax;
+                    bottom: -2px;
+                    width: 0.9vmax; 
+                    height: 6px; 
+                    border-radius: 0.7vmax; 
+                    background-color: $primary;
+                }
+            }
+        }
+    }
+}

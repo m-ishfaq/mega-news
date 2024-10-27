@@ -1,0 +1,188 @@
+#about {
+    justify-content: flex-start;
+    align-items: center;
+    width: 85vw;
+    margin: 1.5em auto;
+    
+    #heading {
+        width: 100%;
+        margin: 0;
+        margin-top: 2vmax;
+        margin-bottom: 0.5vmax;
+    }
+
+    #heading > h3 {
+        font: 500 0.9rem $text1;
+    }
+
+    #explanation {
+        width: 100%;
+        height: 100%;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 1.2vmax;
+        background: $dark_reverse_2;
+        border-radius: 0.7rem;
+
+        > h3 {
+            font: 600 1.1vmax $text1;
+            letter-spacing: 3px;
+            margin: 0.7vmax 0;
+            width: 100%;
+        }
+
+        > div {
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.2vmax;
+            width: 100%;
+
+            > p {
+                width: 50%;
+                font: 400 1vmax $text1;
+                line-height: 2vmax;
+            }
+
+            > img {
+                width: 50%;
+                height: 100%;
+                transition: all 0.3s ease;
+                cursor: pointer;
+                border-radius: 0.7vmax;
+
+                &:hover {
+                    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.5);
+                }
+            }
+        }
+    }
+
+    #information {
+        width: 100%;
+        height: 100%;
+        justify-content: space-around;
+        align-items: flex-start;
+        margin: 1.2vmax 0;
+        // padding: 1.2vmax;
+        // background: $dark_reverse_2;
+        border-radius: 0.7rem;
+
+        > a {
+            width: 50%;
+            height: 100%;
+
+            > img {
+                width: 100%;
+                height: 100%;
+                border-radius: 0.7vmax;
+            }
+        }
+
+        > div {
+            width: 45% !important;
+            justify-content: flex-start;
+            align-items: flex-start;
+            
+            #heading {
+                margin: 0 !important;
+            }
+            
+            > div {
+                margin: 0.5vmax;
+                gap: 1vmax;
+                align-items: flex-start;
+
+                > p {
+                    > svg {
+                        font-size: 20px;
+                    }
+
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    gap: 0.4vmax;
+
+                    > span {
+                        font-size: 14px;
+
+                        > a {
+                            &:hover {
+                                color: $primary;
+                            }
+                        }
+                    }
+
+                    &:last-of-type {
+                        background-color: $dark_reverse_2;
+                        padding: 0.5vmax;
+                        border-radius: 0.7vmax;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    #team {
+        width: 100%;
+        height: 100%;
+        justify-content: space-around;
+        align-items: flex-start;
+        margin: 1.2vmax 0;
+        // padding: 0 1.2vmax;
+        border-radius: 0.7rem;
+        gap: 1.5vmax;
+
+        #heading {
+            margin: 0 !important;
+        }
+            
+        > #personas {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 0.5vmax 0;
+            gap: 2vmax;
+
+            > #member {
+                width: 100%;
+                justify-content: space-between;
+                align-items: center;
+                padding: 1vmax;
+                background-color: #FFFFFF;
+                gap: 1vmax;
+                border-radius: 0.7vmax;
+                box-shadow: 0 3px 5px #d5d5d5;
+                cursor: pointer;
+
+                &:hover {
+                    box-shadow: 0 6px 8px #d5d5d5;
+
+                    > h4 {
+                        color: $primary;
+                    }
+                }
+
+                > img {
+                    width: 124px;
+                    height: 124px;
+                    border-radius: 0.7vmax;
+                }
+
+                > p {
+                    font: 400 0.8vmax $text1;
+                }
+
+                > h4 {
+                    font: 600 1vmax $text1;
+                    background-color: $dark_reverse_2;
+                    padding: 0.5vmax;
+                    border-radius: 0.7vmax;
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

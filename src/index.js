@@ -7,8 +7,8 @@ import ColorModeSwitcher from './ColorModeSwitcher';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <ChakraProvider>
-    <ColorModeScript theme={theme} />
-    <ColorModeSwitcher />
+    {/* <ColorModeScript theme={theme} />
+    <ColorModeSwitcher /> */}
     <App />
   </ChakraProvider>
 );

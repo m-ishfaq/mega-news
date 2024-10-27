@@ -297,7 +297,245 @@
                     "avatar" : "https://i.imgur.com/L9XMdQz.png"
                 }
             }
-        ]
+        ],
+        "profile" : {
+            "your" : [
+                {
+                    "title" : "How To Build A Self-Driving Car In One Month",
+                    "desc" : "Can I Learn The Necessary Computer Science To Build The Software Part Of A Self Driving Car In...",
+                    "image" : "https://i.imgur.com/Dkfryge.png",
+                    "date" : "July 14, 2022",
+                    "link" : "how-to-build-a-self-driving-car-in-one-month-"
+                },
+                {
+                    "title" : "The 5 Most Important Lessons In Computer Science",
+                    "desc" : "Some Important Lessons In Computer Science To Learn Before You Start Your Career As A Software Developer...",
+                    "image" : "https://i.imgur.com/5losY9H.png",
+                    "date" : "July 07, 2022",
+                    "link" : "the-5-most-important-lessons-in-computer-science"
+                },
+                {
+                    "title" : "How To Choose The Right Laptop For Programming",
+                    "desc" : "Can I Learn The Necessary Computer Science To Build The Software Part Of A Self Driving Car In...",
+                    "image" : "https://i.imgur.com/tgIEzcy.png",
+                    "date" : "July 25, 2022",
+                    "link" : "how-to-choose-the-right-laptop-for-programming"
+                },
+                {
+                    "title" : "The Best Programming Languages For Machine Learning",
+                    "desc" : "Some Important Lessons In Computer Science To Learn Before You Start Your Career As A Software Developer...",
+                    "image" : "https://i.imgur.com/PlQGJ4O.png",
+                    "date" : "July 19, 2022",
+                    "link" : "the-best-programming-languages-for-machine-learning"
+                },
+                {
+                    "title" : "How To Create A Successful Online Course For Beginners",
+                    "desc" : "Can I Learn The Necessary Computer Science To Build The Software Part Of A Self Driving Car In...",
+                    "image" : "https://i.imgur.com/3Wo60Zh.png",
+                    "date" : "July 28, 2022",
+                    "link" : "how-to-create-a-successful-online-course-for-beginners"
+                },
+                {
+                    "title" : "The 10 Best Programming Books For Beginners",
+                    "desc" : "Some Important Lessons In Computer Science To Learn Before You Start Your Career As A Software Developer...",
+                    "image" : "https://i.imgur.com/y5U5i6L.png",
+                    "date" : "July 22, 2022",
+                    "link" : "the-10-best-programming-books-for-beginners"
+                },
+                {
+                    "title" : "How To Create A Personal Branding Strategy",
+                    "desc" : "Can I Learn The Necessary Computer Science To Build The Software Part Of A Self Driving Car In...",
+                    "image" : "https://i.imgur.com/1AkCfuf.png",
+                    "date" : "July 12, 2022",
+                    "link" : "how-to-create-a-personal-branding-strategy"
+                },
+                {
+                    "title" : "The 5 Best Programming Languages For Machine Learning",
+                    "desc" : "Some Important Lessons In Computer Science To Learn Before You Start Your Career As A Software Developer...",
+                    "image" : "https://i.imgur.com/5b9ZhoT.png",
+                    "date" : "July 19, 2022",
+                    "link" : "the-best-programming-languages-for-machine-learning"
+                }
+            ], 
+            "saved" : [
+                {
+                    "title" : "How To Build A Self Driving Car In One Month",
+                    "desc" : "Can I Learn The Necessary Computer Science To Build The Software Part Of A Self Driving Car In...",
+                    "image" : "https://i.imgur.com/Dkfryge.png",
+                    "date" : "July 14, 2022",
+                    "link" : "how-to-build-a-self-driving-car-in-one-month-",
+                    "writer" : {
+                        "name" : "Mary",
+                        "avatar" : "https://i.imgur.com/b5VT3rf.png"
+                    }
+                },
+                {
+                    "title" : "Self-Improvement Has Become An Extreme...",
+                    "desc" : "What We Are Told We Must Do Each Day To Develop And Be Successful Has Gone Out Of Control. We...",
+                    "image" : "https://i.imgur.com/8B6zMxL.png",
+                    "date" : "July 25, 2022",
+                    "link" : "self-improvement-has-become-an-extreme-future",
+                    "writer" : {
+                        "name" : "James",
+                        "avatar" : "https://i.imgur.com/XrgjeXv.png"
+                    }
+                },
+                {
+                    "title" : "10 Cooking Lessons To Use In Everyday Life",
+                    "desc" : "I Recently Upon By This Quote Of Paul Theroux: 'Cooking Requires Confident Guesswork...",
+                    "image" : "https://i.imgur.com/37wYuXU.png",
+                    "date" : "July 12, 2022",
+                    "link" : "10-cooking-lessons-to-use-in-everyday-life",
+                    "writer" : {
+                        "name" : "Jon Kantner",
+                        "avatar" : "https://i.imgur.com/L9XMdQz.png"
+                    }
+                },
+                {
+                    "title" : "Typography Can Make Or Break Your Design...",
+                    "desc" : "One Of The Most Important Skills You Can Learn As A Designer IS How To Choose Type. This Is...",
+                    "image" : "https://i.imgur.com/OHntlYf.png",
+                    "date" : "May 10, 2022",
+                    "link" : "typography-can-make-or-break-your-design",
+                    "writer" : {
+                        "name" : "Robert",
+                        "avatar" : "https://i.imgur.com/5V8n0ZT.png"
+                    }
+                },
+                {
+                    "title" : "House Boating On Lake Shastra",
+                    "desc" : "Cast From The Rocks To Bring Home Fresh Fish Tacos In This Iconic Spring And Summer Fishery - Are You...",
+                    "image" : "https://i.imgur.com/PlQGJ4O.png",
+                    "date" : "July 12, 2022",
+                    "link" : "house-boating-on-lake-shastra",
+                    "writer" : {
+                        "name" : "James",
+                        "avatar" : "https://i.imgur.com/5V8n0ZT.png"
+                    }
+                },
+                {
+                    "title" : "Opening Day Of Boating Season, Seattle, WA",
+                    "desc" : "Of Course The Puget Sound is Very Watery. And Where There Is Water, There Are Boats. Today Is...",
+                    "image" : "https://i.imgur.com/5losY9H.png",
+                    "date" : "August 18, 2022",
+                    "link" : "opening-day-of-boating-season-seattle-wa",
+                    "writer" : {
+                        "name" : "James",
+                        "avatar" : "https://i.imgur.com/XrgjeXv.png"
+                    }
+                },
+                {
+                    "title" : "How To Choose The Right Laptop For",
+                    "desc" : "Choosing The Right Laptop For Programming Can  be A Tough Process. It's Easy To Get Confused...",
+                    "image" : "https://i.imgur.com/B1eeOc7.png",
+                    "date" : "July 25, 2022",
+                    "link" : "how-to-choose-the-right-laptop-for-programming",
+                    "writer" : {
+                        "name" : "Louis Hoebregts",
+                        "avatar" : "https://i.imgur.com/5V8n0ZT.png"
+                    }
+                },
+                {
+                    "title" : "How We Built The First Real Self Driving Car",
+                    "desc" : "Electric Self-Driving Cars Will Save Millions Of Lives And Significantly Accelerate The World's... ",
+                    "image" : "https://i.imgur.com/tgIEzcy.png",
+                    "date" : "July 12, 2022",
+                    "link" : "how-we-built-the-first-real-self-driving-car",
+                    "writer" : {
+                        "name" : "Mary",
+                        "avatar" : "https://i.imgur.com/b5VT3rf.png"
+                    }
+                },
+                {
+                    "title" : "How To Persuade Your Parents To Buy Fast...",
+                    "desc" : "Parents Often Do not Want To Buy Fast Food. They May Be Worried That It's Too Expensive, Unhealth...",
+                    "image" : "https://i.imgur.com/KdOGQAL.png",
+                    "date" : "May 10, 2022",
+                    "link" : "how-to-persuade-your-parents-to-buy-fast-food",
+                    "writer" : {
+                        "name" : "Jon Kantner",
+                        "avatar" : "https://i.imgur.com/L9XMdQz.png"
+                    }
+                },
+                {
+                    "title" : "How To Choose The Right Laptop For",
+                    "desc" : "Choosing The Right Laptop For Programming Can  be A Tough Process. It's Easy To Get Confused...",
+                    "image" : "https://i.imgur.com/B1eeOc7.png",
+                    "date" : "July 25, 2022",
+                    "link" : "how-to-choose-the-right-laptop-for-programming",
+                    "writer" : {
+                        "name" : "Robert",
+                        "avatar" : "https://i.imgur.com/5V8n0ZT.png"
+                    }
+                },
+                {
+                    "title" : "No Boat BottomFish: Jelly Fishing On The...",
+                    "desc" : "Cast From The Rocks To Bring Home Fresh Fish Tacos In This Iconic Spring And Summer Fishery - Are You...",
+                    "image" : "https://i.imgur.com/PlQGJ4O.png",
+                    "date" : "July 12, 2022",
+                    "link" : "no-boat-bottomfish-jelly-fishing-on-the",
+                    "writer" : {
+                        "name" : "Louis Hoebregts",
+                        "avatar" : "https://i.imgur.com/5V8n0ZT.png"
+                    }
+                },
+                {
+                    "title" : "What A Disabled Squirrel Taught Me About Li...",
+                    "desc" : "Why It Helps To Know What It's Like, And The Exquisite Beauty Of Empathy These Days, The Wod Patio Area...",
+                    "image" : "https://i.imgur.com/y5U5i6L.png",
+                    "date" : "July 12, 2022",
+                    "link" : "what-a-disabled-squirrel-taught-me-about-life",
+                    "writer" : {
+                        "name" : "James",
+                        "avatar" : "https://i.imgur.com/XrgjeXv.png"
+                    }
+                },
+                {
+                    "title" : "Becoming A Self Driving Car And Machine...",
+                    "desc" : "How I Left My Full Time Job, Studied At Udacity, And Landed A Job At BMW. The Past Year Has Been Quite...",
+                    "image" : "https://i.imgur.com/3Wo60Zh.png",
+                    "date" : "May 10, 2022",
+                    "link" : "becoming-a-self-driving-car-and-machine-learning-engineer",
+                    "writer" : {
+                        "name" : "Cassie Evans",
+                        "avatar" : "https://i.imgur.com/5vkv73I.png"
+                    }
+                },
+                {
+                    "title" : "How To Become A Master Designer",
+                    "desc" : "Many Outsiders Believe That Designers Are Unicorns, Gifted Or Special In Some Way. We Have An Innate...",
+                    "image" : "https://i.imgur.com/5b9ZhoT.png",
+                    "date" : "July 10, 2022",
+                    "link" : "how-to-become-a-master-designer",
+                    "writer" : {
+                        "name" : "Linda",
+                        "avatar" : "https://i.imgur.com/nxlO8Zr.png"
+                    }
+                },
+                {
+                    "title" : "Why Buy A New Car Makes More Sense...",
+                    "desc" : "Can I Learn The Necessary Computer Science To Build The Software Part Of A Self Driving Car In...",
+                    "image" : "https://i.imgur.com/Dkfryge.png",
+                    "date" : "July 14, 2022",
+                    "link" : "how-to-build-a-self-driving-car-in-one-month-",
+                    "writer" : {
+                        "name" : "Mary",
+                        "avatar" : "https://i.imgur.com/b5VT3rf.png"
+                    }
+                },
+                {
+                    "title" : "Lasagna Is But A Pasta Cake",
+                    "desc" : "Parents Often Do not Want To Buy Fast Food. They May Be Worried That It's Too Expensive, Unhealth...",
+                    "image" : "https://i.imgur.com/KdOGQAL.png",
+                    "date" : "May 10, 2022",
+                    "link" : "how-to-persuade-your-parents-to-buy-fast-food",
+                    "writer" : {
+                        "name" : "Jon Kantner",
+                        "avatar" : "https://i.imgur.com/L9XMdQz.png"
+                    }
+                }
+            ]
+        }
     },
     "bg" : {
         "sports" : "https://i.imgur.com/Wel8nuU.png"
@@ -352,6 +590,70 @@
                     }
                 ]
             }
+        },
+        "gallery" : [
+            "https://i.imgur.com/1NEr9Jq.png",
+            "https://i.imgur.com/kZbjgbS.png",
+            "https://i.imgur.com/RsLQyWw.png",
+            "https://i.imgur.com/coqYZLs.png",
+            "https://i.imgur.com/nfGS0ER.png",
+            "https://i.imgur.com/QQI5dLu.png",
+            "https://i.imgur.com/ft85KjE.png",
+            "https://i.imgur.com/8d4BLGV.png",
+            "https://i.imgur.com/24j375j.png"
+        ],
+        "about" : {
+            "top" : "https://i.imgur.com/vDbO7R9.png",
+            "map" : "https://i.imgur.com/OzatWHy.png",
+            "team" : [
+                {
+                    "name" : "Behzad Pashaei",
+                    "image" : "https://i.imgur.com/7Y9NBFV.png",
+                    "designation" : "Designer"
+                },
+                {
+                    "name" : "Cassie Evans",
+                    "image" : "https://i.imgur.com/5vkv73I.png",
+                    "designation" : "Programmer"
+                },
+                {
+                    "name" : "Louis Hoebregts",
+                    "image" : "https://i.imgur.com/XrgjeXv.png",
+                    "designation" : "Marketing"
+                },
+                {
+                    "name" : "Patricia",
+                    "image" : "https://i.imgur.com/71Xw4UZ.png",
+                    "designation" : "Administrative"
+                },
+                {
+                    "name" : "James Hoebregts",
+                    "image" : "https://i.imgur.com/L9XMdQz.png",
+                    "designation" : "CEO"
+                },
+                {
+                    "name" : "Jon Kantner",
+                    "image" : "https://i.imgur.com/5V8n0ZT.png",
+                    "designation" : "Financial"
+                }
+            ]
+        },
+        "profile" : {
+            "banner" : "https://i.imgur.com/83RKrge.png",
+            "username" : "James",
+            "avatar" : "https://i.imgur.com/XrgjeXv.png",
+            "viewsChart" : "https://i.imgur.com/WMECpiB.png",
+            "post" : [
+                "https://i.imgur.com/coqYZLs.png",
+                "https://i.imgur.com/vjSExkC.png",
+                "https://i.imgur.com/ft85KjE.png",
+                "https://i.imgur.com/HU5iqaj.png"
+            ]
+        },
+        "writer" : {
+            "banner" : "https://i.imgur.com/83RKrge.png",
+            "username" : "Loius Hoebregts",
+            "avatar" : "https://i.imgur.com/5V8n0ZT.png"
         }
     }
 }

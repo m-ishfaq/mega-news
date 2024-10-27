@@ -1,0 +1,30 @@
+#loaderContainer {
+    width: 100vw;
+    height: 100vh;
+    background-color: $white;
+    color: $primary;
+    position: relative;
+
+    > #loading {
+        width: fit-content;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font: 700 0.5vmax $text1;
+        font-family: sans-serif;
+        font-size: 30px;
+        padding-bottom: 8px;
+        background: linear-gradient(currentColor 0 0) 0 97%/0% 3px no-repeat;
+        animation: l2 7s linear infinite;
+    }
+
+    #loading:before {
+        content:"MEGA.news"
+    }
+
+    @keyframes l2 {
+        to{background-size: 100% 3px}
+    }
+}

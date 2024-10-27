@@ -1,6 +1,277 @@
 footer {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    justify-content: space-between;
-    align-items: center;
+    background-color: $white;
+    width: 100vw;
+
+    #heading {
+        width: 50%;
+        margin: 0;
+        margin-top: 2vmax;
+        margin-bottom: 0.5vmax;
+    }
+
+    #heading > h3 {
+        font: 500 1rem $text1;
+    }
+
+    #fAbout > #heading {
+        &:first-of-type {
+            > h3 {
+                font: 500 1.4rem $text1;
+            }
+        }
+    }
+
+    > div {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        justify-content: space-between;
+        // align-items: center;
+        width: 85vw;
+        margin: 1.5em auto;
+        // padding: 0.8rem;
+        border-radius: 0.7rem;
+        position: relative;
+
+        #leftFooter {
+            width: 100%;
+            background-color: #F5F5F5;
+            height: 100%;
+            position: relative;
+            padding: 0.7vmax 2vmax;
+            padding-bottom: 2vmax;
+            border-radius: 0 2.5vmax 2.5vmax 0;
+            align-items: center;
+            justify-content: space-between;
+
+            > #fAbout {
+                // justify-content: space-between;
+                align-items: flex-start;
+                width: 50%;
+                height: 100%;
+
+                > p {
+                    font: 400 0.8vmax $text1;
+                    padding-left: 10px;
+                    text-align: justify;
+                }
+
+                #newsletter {
+                    background-color: $white;
+                    border-radius: 0.5vmax;
+                    width: 100%;
+
+                    > input {
+                        padding-left: 10px;
+                        margin: 0 !important;
+                        padding: 10px !important;
+
+                        &::placeholder {
+                            color: $white_reverse;
+                            font: 400 0.7vmax $text1;
+                        }
+                    }
+                }
+            }
+
+            > #catSocial {
+                width: 100%;
+                justify-content: flex-start;
+                // align-items: flex-end;
+                width: 35%;
+                height: 100%;
+
+                #cat {
+                    text-align: left;
+                    justify-content: flex-start;
+                    align-items: start;
+
+                    > a {
+                        font: 400 0.8vmax $text1;
+                        margin-left: -10px;
+                        margin-bottom: 4px;
+
+                        &:hover {
+                            color: $primary;
+                        }
+                    }
+                }   
+
+                #social {
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    width: 100%;
+                    gap: 0.5vmax;
+
+                    > a {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        color: $white;
+                        padding: 0.5vmax;
+                        border-radius: 0.7vmax;
+
+                        &:first-of-type {
+                            background: linear-gradient(45deg, $primary_1, #f46aca);
+
+                            &:hover {
+                                background-color: $white !important;
+                            }
+
+                            > span {
+                                font: 400 0.9vmax $text1;
+                                margin: auto 0.4vmax;
+                            }
+
+                            > svg {
+                                width: 25px;
+                                height: 25px;
+                            }
+                        }
+
+                        &:last-of-type {
+                            background-color: rgb(92, 180, 252);
+
+                            > svg {
+                                width: 25px;
+                                height: 25px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            > #footerBottom {
+                width: 80%;
+                position: absolute;
+                bottom: 3%;
+                padding: 0.8vmax 0;
+                justify-content: center;
+                gap: 4vmax;
+                align-items: center;
+                background-color: #e5e5e5;
+                border-radius: 0.9vmax;
+
+                > div {
+                    &:first-of-type {
+                        justify-content: space-between;
+                        align-items: center;
+
+                        > a {
+                            font: 400 0.8vmax $text1;
+
+                            &:hover {
+                                color: $primary;
+                            }
+                        }
+                    }
+
+                    &:last-of-type {
+                        // margin-right: 1vmax;
+
+                        > p {
+                            font: 400 0.8vmax $text1;
+                        }
+                    }
+                }
+            }
+        }
+
+        #comments {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            padding: 0.8vmax;
+            padding-left: 1vmax;
+            align-items: flex-start;
+            background-color: $white;
+            justify-content: space-between;
+
+            > #comment {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+                border-radius: 0.7vmax;
+                padding: 1vmax;
+                gap: 0.5vmax;
+                background-color: #F5F5F5;
+
+                &:hover {
+                    background-color: #F1f1f1;
+
+                    > h4 {
+                        color: $primary;
+                    }
+                }
+
+                > h4 {
+                    font: 700 0.9vmax $text1;
+                }
+
+                > p {
+                    font: 400 0.8vmax $text1;
+                }
+            }
+        }
+
+        #galleryCon {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            padding: 0.8vmax;
+            padding-left: 1vmax;
+            align-items: flex-start;
+            background-color: $white;
+            justify-content: space-between;
+
+            > #gallery {
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+                height: 85%;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 0.5vmax;
+                padding: 0;
+                grid-template-rows: repeat(3, 1fr);
+                
+                > div {
+                    position: relative;
+                    height: 100%;
+
+                    &:hover #icon {
+                        opacity: 1;
+                    }
+
+                    &:hover img {
+                        filter: blur(2px);
+                    }
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 0.7vmax;
+                        transition: filter 0.3s ease;
+                    }
+    
+                    > a {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        opacity: 0;
+                        transition: opacity 0.3s ease;
+                        color: $primary;
+                        
+                        > svg {
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

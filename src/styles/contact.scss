@@ -1,0 +1,145 @@
+#contact {
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 0.7rem;
+    position: relative;
+    width: 85vw;
+    min-height: 75vh;
+    margin: 1.5em auto;
+
+    #form {
+        justify-content: space-between;
+        align-items: flex-end;
+        gap: 1vmax;
+        width: 100%;
+        margin-bottom: 2vmax;
+
+        > #firstRow {
+            justify-content: space-between;
+            align-items: center;
+            gap: 0.4vmax;
+            width: 100%;
+
+            .chakra-form-control {
+                width: 32%;
+
+                #inputSimple-label {
+                    font: 500 0.9vmax $text1;
+                }
+
+                #inputSimple {
+                    width: 100%;
+                    padding: 0.5vmax;
+                    background-color: $dark_reverse_2;
+                    border-radius: 0.7vmax;
+                }
+            }
+        }
+
+        #secondRow {
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 0.4vmax;
+            width: 100%;
+            
+            > .chakra-form-control {
+                &:first-of-type {
+                    width: 80%;
+                    height: 100%;
+
+                    #textArea-label {
+                        font: 500 0.9vmax $text1;
+                    }
+    
+                    > #textAreaBox {
+                        justify-content: space-between;
+                        align-items: flex-start;
+                        padding: 1.2vmax;
+                        box-shadow: 0 2px 3px #d5d5d5;
+                        border-radius: 0.7vmax;
+    
+                        > div {
+                            justify-content: flex-start;
+                            align-items: center;
+                            gap: 1vmax;
+    
+                            > #toolbarBtn {
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                gap: 0.5vmax;
+                                padding: 0.6vmax;
+                                border-radius: 0.7vmax;
+                                background-color: $dark_reverse_2;
+                                cursor: pointer;
+                                color: $white_2;
+    
+                                &:hover {
+                                    color: $primary;
+                                }
+    
+                                > p {
+                                    font: 400 0.9vmax $text1;
+                                }
+                            }
+                        }
+    
+                        #textArea {
+                            width: 100%;
+                            padding: 0.5vmax;
+                            background-color: $dark_reverse_2;
+                            border-radius: 0.7vmax;
+        
+                            &::placeholder {
+                                font: 400 1vmax $text1;
+                            }
+                        }
+                    }
+                }
+
+                &:last-of-type {
+                    width: 20%;
+                    height: 100%;
+                    padding: 2vmax 0.4vmax;
+
+                    #fileInput-label {
+                        font: 500 0.9vmax $text1;
+                    }
+
+                    > #fileInputBox {
+                        justify-content: center;
+                        align-items: center;
+                        cursor: pointer ;
+                        background-color: $dark_reverse_2;
+                        padding: 1.2vmax;
+                        border-radius: 0.7vmax;
+                        width: 100%;
+                        gap: 0.4vmax;
+                        height: 100%;
+
+                        > p {
+                            font: 300 0.8vmax $text1;
+                        }
+                    }
+                }
+            }
+        }
+
+        #sendBtn {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 1vmax;
+            border-radius: 0.7vmax;
+            color: $white;
+            gap: 0.4vmax;
+            background-color: $primary_1;
+            float: right;
+            transition: background-color 0.3s ease;
+
+            &:hover {
+                border: 1px solid $primary_1
+            }
+        }
+    }
+}   
