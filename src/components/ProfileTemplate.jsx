@@ -18,7 +18,7 @@ const ProfileTemplate = ({img, name}) => {
         </HStack> 
         <Box id='menu'>
           <MenuItem name={'Posts'} link={''} active={current == 'profile' ? true : false} />
-          <MenuItem name={'Create'} link={'/create-new/video'} active={current == 'video' || current == 'create-new' ? true : false} />
+          <MenuItem name={'Create'} link={'/create-new'} active={current == 'video' || current == 'create-new' ? true : false} />
           <MenuItem name={'Saved'} link={'/saved-posts'} active={current == 'saved-posts' ? true : false} />
         </Box>
         <Box id='editBtn'>

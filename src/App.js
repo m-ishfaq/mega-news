@@ -2,6 +2,7 @@ import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
 import './styles/app.scss'
+import { Toaster } from 'react-hot-toast';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -16,6 +17,7 @@ import ProfilePostVideo from './components/ProfilePostVideo';
 import ProfilePostNew from './components/ProfilePostNew';
 import ProfileSavedPosts from './components/ProfileSavedPosts';
 import Writer from './components/Writer';
+import Category from './components/Category';
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -49,9 +51,11 @@ function App() {
               <Route path='/profile/create-new' element={<ProfilePostNew />} />
               <Route path='/profile/saved-posts' element={<ProfileSavedPosts />} />
               <Route path='/writer' element={<Writer />} />
+              <Route path='/category' element={<Category />} />
               <Route path='*' element={<NotFound />} />
             </Routes>
             <Footer />
+            <Toaster />
           </>
         )
       }

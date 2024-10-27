@@ -6,7 +6,6 @@ import ProfileTemplate from './ProfileTemplate'
 import { Angry, Better, Good, Happy, Neutral } from '../assets/Icons'
 import '../styles/statics.scss'
 import ProfilePostsGrid from './ProfilePostsGrid'
-import Pagination from './Pagination'
 
 const Profile = () => {
   return (
@@ -25,7 +24,6 @@ const Profile = () => {
       </HStack>
       <Heading title={'Your Posts'} />
       <ProfilePostsGrid />
-      {/* <Pagination /> */}
     </VStack>
   )
 }

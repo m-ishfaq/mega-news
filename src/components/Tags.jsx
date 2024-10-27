@@ -33,7 +33,7 @@ const Tag = ({name, img, link}) => (
       borderRadius={'10px'}
       _hover={{ opacity: 0.8 }}
     >
-      <Link to={`/${link.toLowerCase()}-news`}>
+      <Link to={`/category?${link.toLowerCase()}`}>
         #{name}
       </Link>
     </Box>
