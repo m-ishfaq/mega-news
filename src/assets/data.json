@@ -640,8 +640,8 @@
         },
         "profile" : {
             "banner" : "https://i.imgur.com/83RKrge.png",
-            "username" : "James",
-            "avatar" : "https://i.imgur.com/XrgjeXv.png",
+            "username" : "Dev360",
+            "avatar" : "https://i.imgur.com/xXeat7s.png",
             "viewsChart" : "https://i.imgur.com/WMECpiB.png",
             "post" : [
                 "https://i.imgur.com/coqYZLs.png",
@@ -655,5 +655,60 @@
             "username" : "Loius Hoebregts",
             "avatar" : "https://i.imgur.com/5V8n0ZT.png"
         }
+    },
+    "single" : {
+        "thumbnail" : "https://i.imgur.com/iUj1an0.png",
+        "title" : "How to Spend the Perfect Day on Croatia’s Most Magical Island",
+        "first_sub_heading" : "Don’t wait. The purpose of our lives is to be happy!",
+        "second_sub_heading" : "Not how long, but how well you have lived is the main thing.",
+        "image" : "https://i.imgur.com/zGKWzeA.png",
+        "writer" : {
+            "name" : "Louis Hoebregts",
+            "avatar" : "https://i.imgur.com/NrT6CTl.png",
+            "total_posts" : "27"
+        },
+        "tags" : [
+            "Montenegro", "Visit Croatia", "Luxury Travel", "Travel Log", "Paradise Island", "Travel Info"
+        ],
+        "comments" : [
+            {
+                "name" : "Jon Kantner",
+                "date" : "2022 04 July",
+                "avatar" : "https://i.imgur.com/L9XMdQz.png",
+                "text" : "When you are ready to indulge your sense of excitement, check out the range of water- sports opportunities at the resort’s on-site water-sports center. Want to leave your stress on the water? The resort has kayaks, paddleboards, or the low-key pedal boats.",
+                "reply" : [
+                    {
+                        "name" : "Cassie Evans",
+                        "avatar" : "https://i.imgur.com/5vkv73I.png",
+                        "date" : "2022 04 July",
+                        "text" : "a river or a lake island may be called an eyot or ait, and a small island off the coast may be called a holm. Sedimentary islands in the Ganges delta are called chars. A grouping of geographically or geologically related islands, such as the Philippines, is referred to as an archipelago. "
+                    }, 
+                    {
+                        "name" : "Behzad Pashaei",
+                        "avatar" : "https://i.imgur.com/5V8n0ZT.png",
+                        "date" : "2022 04 July",
+                        "text" : "Oceanic islands are often considered to be islands that do not sit on continental shelves. Other definitions limit the term to only refer to islands with no past geological connections to a continental landmass.The vast majority are volcanic in origin, such as Saint Helena in the South Atlantic Ocean."
+                    }
+                ]
+            },
+            {
+                "name" : "Patricia",
+                "date" : "2022 04 July",
+                "avatar" : "https://i.imgur.com/71Xw4UZ.png",
+                "text" : "An island (or isle) is an isolated piece of habitat that is surrounded by a dramatically different habitat, such as water. Very small islands such as emergent land features on atolls can be called islets, skerries, cays or keys.",
+                "reply" : []
+            }
+        ],
+        "top" : [
+            "https://i.imgur.com/q8YJtG4.png",
+            "https://i.imgur.com/EdjoVh8.png",
+            "https://i.imgur.com/uil3x1P.png",
+            "https://i.imgur.com/bxazYnU.png",
+            "https://i.imgur.com/fxH1UpF.png"
+        ],
+        "advertise" : [
+            "https://i.imgur.com/DtH8mgW.png",
+            "https://i.imgur.com/ZmNyDVJ.png"
+        ]
     }
 }

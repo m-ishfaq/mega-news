@@ -1,43 +1,60 @@
-import { Box, HStack } from '@chakra-ui/react'
-import React from 'react'
-import { Link } from 'react-router-dom'
+import { Box, Flex, HStack, VStack } from '@chakra-ui/react'
+import React, { useEffect, useState } from 'react'
+import ProfilePostsGrid from './ProfilePostsGrid'
+import Breadcrumbs from './Breadcrumbs'
+import Pagination from './Pagination'
+import { Link, useLocation } from 'react-router-dom'
 import data from '../assets/data.json'
 
 const Tags = () => {
-  return (
-    <HStack id="tags">
-      {
-          data.tags.map((i, index) => (
-              <Tag name={i.name} img={i.image} link={i.name} key={index}/>
-          ))
-      }
-      {/* <Arrow size={'20'}/> */}
-    </HStack>
-  )
+    const location = useLocation();
+    const current = location.search.split('?').filter(Boolean).pop();
+  
+    const [category, setCategory] = useState(current);
+  
+    const Capitalize = (str) => {
+      return str.charAt(0).toUpperCase() + str.slice(1);
+    }
+  
+    useEffect(() => {
+      setCategory(current);
+    }, [location.search])
+  
+  
+    return (
+      <VStack id='category'>
+        <Breadcrumbs current={'Tags'} />
+        <HStack id='banner'>
+          <Box id='cat'>
+            <CategoryItem name={'All'} link={''} active={category == undefined ? true : false} />
+            {
+                data.tags.map((i, index) => (
+                    <CategoryItem key={index} name={i.name} link={`?${i.name.toLowerCase()}`} active={category == i.name.toLowerCase() ? true : false} />
+                ))
+            }
+          </Box>
+        </HStack>
+        <Heading title={`Tag : ${category == undefined ? 'All' : Capitalize(category)}`} />
+        <ProfilePostsGrid />
+        <Pagination />
+      </VStack>
+    )
 }
 
-const Tag = ({name, img, link}) => (
-  <Box>
-    <Box       
-      backgroundImage={img}
-      backgroundSize="cover"
-      backgroundPosition="center"
-      backgroundRepeat="no-repeat"
-      width="100%"
-      height="80px"
-      display="flex"
-      alignItems="center"
-      justifyContent="center"
-      color="white"
-      textDecoration="none"
-      borderRadius={'10px'}
-      _hover={{ opacity: 0.8 }}
-    >
-      <Link to={`/category?${link.toLowerCase()}`}>
-        #{name}
-      </Link>
-    </Box>
-  </Box>
+const Heading = ({title}) => {
+    return (
+      <Flex id="heading">
+        <h3>
+          {title}
+        </h3>
+      </Flex>
+    )
+}  
+
+const CategoryItem = ({name, link, active}) => (
+    <Link to={`/tags${link}`} id='catItem' data-active={active}>
+      {name}
+    </Link>
 )
 
 export default Tags

@@ -1,0 +1,622 @@
+#single {
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 0.7rem;
+    position: relative;
+    width: 85vw;
+    min-height: 75vh;
+    margin: 1.5em auto;
+
+    #stats {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5vmax;
+        width: 100%;
+        
+        > #writerMenuItem {
+            font: 400 16px $text1;
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;   
+            padding-bottom: 0.3vmax;
+            gap: 0.3vmax;
+    
+            > h4 {
+                font: 400 0.9vmax $text1;
+            }
+        }
+    }
+
+    #breadcrumbs {
+        > a {
+            font-size: 0.8vmax;
+    
+            &:not(:last-of-type) {
+                color: $dark;
+    
+                &:hover {
+                    color: $primary;
+                }
+            }
+    
+            &:last-of-type {
+                color: $white_1;
+                cursor: default;
+            }
+        }
+    }
+
+    #heading {
+        width: 50%;
+        margin: 0;
+    }
+
+    #heading > h3 {
+        font: 500 1rem $text1;
+    }
+
+    > #wrapper {
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 0.5vmax;
+        grid-template-columns: 3fr 1fr;
+        padding: 0 0.8vmax;
+        width: 100%;
+        
+        > #main-content {
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 0.8vmax;
+            width: 100%;
+
+            > #info {
+                justify-content: space-between;
+                align-items: flex-start;
+                gap: 0.7vmax;
+                width: 100%;
+                background-color: $dark_reverse_2;
+                padding: 1.5vmax 1vmax;
+                border-radius: 0.7vmax;
+
+                > h2 {
+                    width: 100%;
+                    font: 600 26px $text1;
+                }
+
+                > img {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 0.7vmax;
+                }
+            }
+
+            > #secondRow {
+                justify-content: flex-start;
+                align-items: flex-start;
+                gap: 0.5vmax;
+                width: 100%;
+                padding: 1vmax;
+
+                > h2 {
+                    width: 100%;
+                    font: 500 20px $text1;
+                }
+
+                > p {
+                    font: 400 1vmax $text1;
+                    line-height: 155%;
+                    text-align: justify;
+                }
+
+                > img {
+                    width: 75%;
+                    margin-top: 1vmax;
+                    height: 75%;
+                    border-radius: 0.7vmax;
+                    align-self: center;
+                }
+            }
+
+            > #comments {
+                justify-content: flex-start;
+                align-items: flex-start;
+                gap: 0.8vmax;
+                width: 100%;
+
+                > #repliedComment {
+                    justify-content: space-between;
+                    align-items: flex-start;
+                    width: 100%;
+                    background-color: $dark_reverse_2;
+                    padding: 0.7vmax 0.4vmax;
+                    gap: 0.8vmax;
+                    border-radius: 0.7vmax;
+
+                    > #reply {
+                        justify-content: flex-end;
+                        align-items: flex-end;
+                        gap: 0.5vmax;
+                        padding: 0.6vmax;
+                        border-radius: 0.7vmax;
+                        width: 80%;
+                        margin-left: 15%;
+                        height: 100%;
+                        box-shadow: 1px 1px 1px 1px rgba(141, 141, 141, 0.5);
+                        border-left: 1px solid rgba(141, 141, 141, 0.5);
+                        cursor: pointer;
+
+                        &:hover {
+                            box-shadow: 2px 2px 2px 2px rgba(141, 141, 141, 0.5);
+
+                            h4 {
+                                color: $primary;
+                            }
+                        }
+    
+                        > #compiler {
+                            justify-content: center;
+                            align-self: flex-start;
+                            gap: 0.6vmax;
+    
+                            > img {
+                                width: 50px;
+                                height: 50px;
+                                border-radius: 0.7vmax;
+                            }
+    
+                            > div {
+                                justify-content: center;
+                                align-items: flex-start;
+    
+                                > h4 {
+                                    font: 500 0.9vmax $text1;
+                                }
+    
+                                > P {
+                                    display: flex;
+                                    justify-content: flex-start;
+                                    align-items: center;
+                                    width: 100%;
+                                    gap: 0.5vmax;
+    
+                                    > span {
+                                        font: 400 0.7vmax $text1;
+                                    }
+                                }
+                            }
+                        }
+    
+                        > p {
+                            font: 400 13px $text1;
+                            line-height: 140%;
+                        }   
+                    }
+                }
+
+                #comment {
+                    justify-content: space-between;
+                    align-items: flex-start;
+                    gap: 0.5vmax;
+                    padding: 0.6vmax;
+                    border-radius: 0.7vmax;
+                    background-color: $dark_reverse_2;
+                    width: 100%;
+                    height: 100%;
+                    position: relative;
+                    cursor: pointer;
+
+                    &:hover {
+                        box-shadow: 2px 2px 2px 2px rgba(141, 141, 141, 0.5);
+
+                        h4 {
+                            color: $primary;
+                        }
+                    }
+
+                    > #compiler {
+                        justify-content: center;
+                        align-self: flex-start;
+                        gap: 0.6vmax;
+
+                        > img {
+                            width: 50px;
+                            height: 50px;
+                            border-radius: 0.7vmax;
+                        }
+
+                        > div {
+                            justify-content: center;
+                            align-items: flex-start;
+
+                            > h4 {
+                                font: 500 0.9vmax $text1;
+                            }
+
+                            > P {
+                                display: flex;
+                                justify-content: flex-start;
+                                align-items: center;
+                                width: 100%;
+                                gap: 0.5vmax;
+
+                                > span {
+                                    font: 400 0.7vmax $text1;
+                                }
+                            }
+                        }
+                    }
+
+                    > p {
+                        font: 400 13px $text1;
+                        line-height: 140%;
+                    }
+
+                    #replyBtn {
+                        background-color: #e7e7e7;
+                        border-radius: 0.4vmax;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        gap: 0.1vmax;
+                        padding: 0.3vmax 0.4vmax;
+                        position: absolute;
+                        right: 1%;
+                        top: 5%;
+                        cursor: pointer;
+
+                        &:hover {
+                            color: $primary;
+                        }
+
+                        > span {
+                            font: 400 0.9vmax $text1;
+                        }
+                    }
+                }
+            }
+            
+            > #addComment {
+                justify-content: flex-start;
+                align-items: flex-start;
+                gap: 0.8vmax;
+                width: 100%;
+                margin: 2vmax 0;
+
+                > #form {
+                    justify-content: space-between;
+                    align-items: flex-end;
+                    gap: 1vmax;
+                    width: 100%;
+                    margin-bottom: 1vmax;
+
+                    > div {
+                        justify-content: space-between;
+                        align-self: center;
+                        width: 100%;
+                        height: 100%;
+                        gap: 0.8vmax;
+
+                        > div {
+                            justify-content: space-between;
+                            align-self: center;
+                            width: 100%;
+                            height: 100%;
+                            gap: 0.4vmax;
+                        }
+                    }
+
+                    > #formBottom {
+                        justify-content: space-between;
+                        align-self: center;
+
+                        > div {
+                            justify-content: space-between;
+                            align-self: center;
+                            width: 83%;
+                            background-color: $dark_reverse_2;
+                            padding: 0.2vmax;
+                            border-radius: 0.7vmax;
+
+                            > p {
+                                font: 400 0.8vmax $text1;
+                            }
+
+                            > ul {
+                                list-style: none;
+
+                                > li {
+                                    display: inline-block;
+                                    margin: 0;
+                                    cursor: pointer;
+
+                                    > svg {
+                                        width: fit-content;
+                                        width: 25px;
+                                    }
+                                }
+                            }
+                        }
+
+                        > #sendBtn {
+                            display: flex;
+                            justify-content: space-around;
+                            align-items: center;
+                            padding: 1vmax;
+                            border-radius: 0.7vmax;
+                            color: $white;
+                            gap: 0.4vmax;
+                            background-color: $primary_1;
+                            float: right;
+                            transition: background-color 0.3s ease;
+                
+                            &:hover {
+                                border: 1px solid $primary_1
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        > #sidebar {
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 0.8vmax;
+            width: 100%;
+
+            > #actionBtn {
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+                gap: 0.4vmax;
+    
+                > #toolbarBtn {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    gap: 0.5vmax;
+                    padding: 0.6vmax 1vmax;
+                    border-radius: 0.7vmax;
+                    background-color: $dark_reverse_2;
+                    cursor: pointer;
+                    color: $white_2;
+    
+                    &:hover {
+                        color: $primary;
+                    }
+    
+                    > p {
+                        font: 400 1vmax $text1;
+                    }
+                }
+    
+                [data-type="action"] {
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    padding: 1vmax;
+                    border-radius: 0.7vmax;
+                    color: $white !important;
+                    gap: 0.4vmax;
+                    background-color: $primary_1 !important;
+                    float: right;
+        
+                    &:hover {
+                        color: $dark !important;
+                        // border: 0.1px solid $primary; 
+                        background-color: $dark_reverse_2 !important;
+                    }
+                }
+            }
+
+            > #editor {
+                justify-content: flex-start;
+                align-items: center;
+                gap: 0.8vmax;
+                height: 100%;
+                border-radius: 0.7vmax;
+                padding: 0.8vmax;
+                background-color: $dark_reverse_2;
+                width: 100%;
+                position: relative;
+
+                > img {
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 0.7vmax;
+                }
+
+                > div {
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    gap: 0.7vmax;
+                    height: 100%;
+
+                    > a {
+                        font: 500 1vmax $text1;
+
+                        &:hover {
+                            color: $primary;
+                        }
+                    }
+
+                    > #followBtn {
+                        width: 80% !important;
+                        border: 1px solid $primary;
+                        padding: 0.4vmax 0.7vmax;
+
+                        > span {
+                            font: 400 1vmax $text1;
+                        }
+                    }
+                }
+
+                > span {
+                    position: absolute;
+                    top: 25%;
+                    right: 5%;
+                    font: 400 0.7vmax $text1;
+                }
+            }
+
+            > #tags {
+                justify-content: flex-start;
+                align-items: center;
+                gap: 0.8vmax;
+                height: 100%;
+                border-radius: 0.7vmax;
+                padding: 0.8vmax;
+                background-color: $dark_reverse_2;
+                width: 100%;
+                position: relative;
+                margin: 0 !important;
+
+                #heading {
+                    width: 100%;
+                    margin: 0;
+                }
+                
+                #heading > h3 {
+                    font: 500 1vmax $text1;
+                }
+
+                > #list {
+                    justify-content: flex-start;
+                    width: 100%;
+                    height: 100%;
+                    gap: 0.6vmax;
+                    flex-wrap: wrap;
+
+                    > a {
+                        color: $dark;
+                        font: 400 0.8vmax $text1;
+                        
+                        &:hover {
+                            color: $primary;
+                        }
+                    }
+                }
+            }
+
+            > #topPost {
+                justify-content: flex-start;
+                align-items: center;
+                gap: 0.8vmax;
+                height: 100%;
+                border-radius: 0.7vmax;
+                padding: 0.8vmax;
+                background-color: $dark_reverse_2;
+                width: 100%;
+                position: relative;
+
+                #heading {
+                    width: 100%;
+                    margin: 0;
+                }
+                
+                #heading > h3 {
+                    font: 500 1vmax $text1;
+                }
+
+                > #list {
+                    justify-content: flex-start;
+                    width: 100%;
+                    height: 100%;
+                    gap: 0.8vmax;
+
+                    > #top {
+                        justify-content: space-between;
+                        align-items: center;
+                        width: 100%;
+                        cursor: pointer;
+
+                        &:hover {
+                            > div > a {
+                                &:first-of-type {
+                                    color: $primary;
+                                }
+                            }
+                        }
+
+                        > img {
+                            width: 85px;
+                            height: 85px;
+                            border-radius: 0.7vmax;
+                        }
+
+                        > div {
+                            justify-content: space-between;
+                            align-items: flex-start;
+                            height: 100%;    
+
+                            > a {
+                                color: $dark;
+
+                                &:hover {
+                                    color: $primary;
+                                }
+
+                                &:first-of-type {
+                                    font: 500 0.9vmax $text1;
+                                }
+
+                                &:last-of-type {
+                                    font: 400 0.7vmax $text1;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            > #ad {
+                flex-direction: column;
+                gap: 1vmax;
+
+                > a {
+                    color: $white;
+                    font: 400 0.9vmax $text1;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.chakra-form-control {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5vmax 0;
+
+    #inputSimple-label {
+        font: 500 0.9vmax $text1;
+    }
+
+    #inputSimple {
+        width: 100%;
+        padding: 0.5vmax;
+        background-color: $dark_reverse_2;
+        border-radius: 0.7vmax;
+    }
+}
+
+#textArea-label {
+    font: 500 0.9vmax $text1;
+}
+
+#textArea {
+    width: 100%;
+    padding: 0.5vmax;
+    background-color: $dark_reverse_2;
+    border-radius: 0.7vmax;
+
+    &::placeholder {
+        font: 400 1vmax $text1;
+    }
+}

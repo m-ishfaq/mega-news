@@ -27,12 +27,12 @@ const Footer = () => {
             <VStack id='catSocial'>
               <Heading title={'Categories'}/>
               <VStack id='cat'>
-                <Link to={'/culture'} >Culture</Link>
-                <Link to={'/fashion'} >Fashion</Link>
-                <Link to={'/featured'} >Featured</Link>
-                <Link to={'/food'} >Food</Link>
-                <Link to={'/healthy-living'} >Healthy Living</Link>
-                <Link to={'/technology'} >Technology</Link>
+                <Link to={'/category?culture'} >Culture</Link>
+                <Link to={'/category?fashion'} >Fashion</Link>
+                <Link to={'/category?featured'} >Featured</Link>
+                <Link to={'/category?food'} >Food</Link>
+                <Link to={'/category?healthy-living'} >Healthy Living</Link>
+                <Link to={'/category?technology'} >Technology</Link>
               </VStack>
               <Heading title={'Socials'}/>
               <HStack id='social'>

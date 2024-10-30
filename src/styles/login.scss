@@ -1,0 +1,121 @@
+#login {
+    > #form {
+        justify-content: space-between;
+        align-items: center;
+        gap: 1vmax;
+        width: 25%;
+        margin-bottom: 1vmax;
+
+        > #google {
+            justify-content: flex-start;
+            align-items: center;
+            width: 100%;
+        
+            > h3 {
+                font: 500 1.5vmax $text1;
+                margin: 0 auto;
+            }
+        
+            > p {
+                font: 400 0.7vmax $text1;
+                margin: 0;
+            }
+        
+            > #googleBtn {
+                margin: 0.9vmax 0;
+                display: flex;
+                border-radius: 0.3vmax;
+                justify-content: center;
+                align-items: center;
+                width: 70%;   
+                gap: 0.4vmax;
+                border: 1px solid $primary;
+                padding: 0.4vmax;
+
+                &:hover {
+                    color: $primary;
+                }
+
+                > span {    
+                    font: 400 0.9vmax $text1;
+                }
+            }
+        }
+
+        > #inputs {
+            justify-content: flex-start;
+            align-items: center;
+            width: 100%;
+
+            > .chakra-form-control {
+                width: 70%;
+                margin-top: 0.7vmax;
+            
+                #inputSimple-label {
+                    font: 500 0.7vmax $text1;
+                }
+            
+                #inputSimple {
+                    width: 100%;
+                    padding: 0.5vmax;
+                    background-color: $dark_reverse_2;
+                    border-radius: 0.3vmax;
+
+                    &::placeholder {
+                        font: 300 0.9vmax $text1;
+                    }
+                }
+            }
+
+            #helperText {
+                font: 500 0.7vmax $text1;
+                margin-top: 0.4vmax;
+                width: 100%;
+                text-align: right;
+                color: $primary;
+
+                &:hover {
+                    color: black;
+                }
+            }
+        }
+
+        > #formBottom {
+            width: 100%;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 0.4vmax;
+
+            > #loginBtn {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 1vmax;
+                border-radius: 0.4vmax;
+                width: 70%;
+                color: $white;
+                gap: 0.4vmax;
+                background-color: $primary_1;
+                float: right;
+                transition: background-color 0.3s ease;
+    
+                &:hover {
+                    border: 1px solid $primary_1;
+                }
+            }
+
+            > p {
+                font: 500 0.8vmax $text1;
+
+                > a {
+                    font: 400 0.8vmax $text1;
+                    color: $primary;
+
+                    &:hover {
+                        color: $dark;
+                    }
+                }
+            }
+        }
+    }
+}

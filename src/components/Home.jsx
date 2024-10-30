@@ -1,5 +1,4 @@
 import React from 'react'
-import Tags from './Tags'
 import Sliders from './Sliders'
 import Heading from './Heading'
 import PostFlex from './PostFlex'
@@ -8,11 +7,12 @@ import PostGrid from './PostGrid'
 import Videos from './Videos'
 import data from '../assets/data.json'
 import Weather from './Weather'
+import TopTags from './TopTags'
 
 const Home = () => {
   return (
     <>
-      <Tags />
+      <TopTags />
       <Sliders />
       <Heading title={'Popular Posts'} link={'popular-posts'} />
       <PostFlex data={data.posts.popular}/>

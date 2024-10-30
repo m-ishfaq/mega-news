@@ -6,9 +6,9 @@ import { ChevronRightIcon } from '@chakra-ui/icons'
 const Breadcrumbs = ({current}) => {
   return (
     <HStack id='breadcrumbs'>
-        <Link to={'/'}>Home</Link>
-        <ChevronRightIcon />
-        <Link>{current}</Link>
+      <Link to={'/'}>Home</Link>
+      <ChevronRightIcon />
+      <Link>{current}</Link>
     </HStack>
   )
 }

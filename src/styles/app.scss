@@ -23,6 +23,9 @@
 @import './profilePostVideo';
 @import './writer';
 @import './category';
+@import './login';
+@import './forgot';
+@import './single';
 @import './footer';
 
 body {
@@ -141,7 +144,6 @@ button {
         display: flex;
         justify-content: space-between;
         align-items: center;
-
         
         &:hover {
             color: $primary;

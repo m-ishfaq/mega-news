@@ -7,18 +7,18 @@ import { Link, useLocation } from 'react-router-dom'
 import data from '../assets/data.json'
 
 const Category = () => {
-    const location = useLocation();
-    const current = location.search.split('?').filter(Boolean).pop();
+  const location = useLocation();
+  const current = location.search.split('?').filter(Boolean).pop();
 
-    const [category, setCategory] = useState(current);
+  const [category, setCategory] = useState(current);
 
-    const Capitalize = (str) => {
-        return str.charAt(0).toUpperCase() + str.slice(1);
-    }
+  const Capitalize = (str) => {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+  }
 
-    useEffect(() => {
-        setCategory(current);
-    }, [location.search])
+  useEffect(() => {
+    setCategory(current);
+  }, [location.search])
 
 
   return (
@@ -26,12 +26,12 @@ const Category = () => {
       <Breadcrumbs current={'Category'} />
       <HStack id='banner'>
         <Box id='cat'>
-            <CategoryItem name={'All'} link={''} active={category == undefined ? true : false} />
-            {
-                data.tags.map((i, index) => (
-                    <CategoryItem key={index} name={i.name} link={`?${i.name.toLowerCase()}`} active={category == i.name.toLowerCase() ? true : false} />
-                ))
-            }
+          <CategoryItem name={'All'} link={''} active={category == undefined ? true : false} />
+          {
+              data.tags.map((i, index) => (
+                  <CategoryItem key={index} name={i.name} link={`?${i.name.toLowerCase()}`} active={category == i.name.toLowerCase() ? true : false} />
+              ))
+          }
         </Box>
       </HStack>
       <Heading title={`Category : ${category == undefined ? 'All' : Capitalize(category)}`} />

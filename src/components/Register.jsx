@@ -4,22 +4,21 @@ import { IoIosLink, IoMdColorFilter } from "react-icons/io";
 import React from 'react'
 import Breadcrumbs from './Breadcrumbs'
 
-const ProfileEdit = () => {
+const Register = () => {
   return (
     <VStack id='contact'>
-      <Breadcrumbs current={'Edit Profile'} />
+      <Breadcrumbs current={'Register'} />
       <VStack id='form'>
         <Grid id='firstRow'>
           <SimpleInput type={'text'} name="First Name" />
           <SimpleInput type={'text'} name="Last Name" />
           <SimpleInput type={'text'} name="User Name" />
-          <SimpleInput type={'password'} name="Old Password" />
           <SimpleInput type={'password'} name="Password" />
+          <SimpleInput type={'password'} name="Confirm Password" />
           <SimpleInput type={'email'} name="Email" />
         </Grid> 
-        <BannerUpload name={'Add Banner'} />
         <HStack id='secondRow'>
-          <TextAreaInput name={'Explanation'} />
+          <BannerUpload name={'Add Banner'} />
           <FileInput name={'Add Image'} />
         </HStack>
         <Button p={'0'} variant={'ghost'} id='sendBtn'>
@@ -36,22 +35,6 @@ const SimpleInput = ({type, name}) => (
       <Input type={type} placeholder="" />
     </FormControl>
 );
-  
-const TextAreaInput = ({name}) => (
-    <FormControl id='textArea'>
-        <FormLabel>{name}</FormLabel>
-        <VStack id='textAreaBox'>
-        <HStack>
-            <EditorButton Svg={FaImage} name={"Image"} />
-            <EditorButton Svg={IoMdColorFilter} name={"Color"} />
-            <EditorButton Svg={FaCode} name={"Text"} />
-            <EditorButton Svg={FaAlignLeft} name={"Align"} />
-            <EditorButton Svg={IoIosLink} name={"Link"} />
-        </HStack>
-        <Textarea rows="7" size={'xl'} placeholder="Type..." />
-        </VStack>
-    </FormControl>
-)
   
 const FileInput = ({name}) => (
   <FormControl id='fileInput'>
@@ -75,7 +58,7 @@ const FileInput = ({name}) => (
 )
 
 const BannerUpload = ({name}) => (
-    <FormControl id='BannerUpload'>
+    <FormControl id='BannerUpload' style={{ height: '100%' }}>
         <FormLabel>{name}</FormLabel>
         <HStack id="banner">
             <FaImage size={'8vmax'} color='#d5d5d5' height={'50%'}/>
@@ -104,4 +87,4 @@ const EditorButton = ({Svg, name}) => (
     </Box>
 )
 
-export default ProfileEdit
+export default Register

@@ -18,6 +18,11 @@ import ProfilePostNew from './components/ProfilePostNew';
 import ProfileSavedPosts from './components/ProfileSavedPosts';
 import Writer from './components/Writer';
 import Category from './components/Category';
+import Tags from './components/Tags';
+import Login from './components/Login';
+import Register from './components/Register';
+import Forgot from './components/Forgot';
+import Single from './components/Single';
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -52,6 +57,12 @@ function App() {
               <Route path='/profile/saved-posts' element={<ProfileSavedPosts />} />
               <Route path='/writer' element={<Writer />} />
               <Route path='/category' element={<Category />} />
+              <Route path='/Tags' element={<Tags />} />
+              <Route path='/sign-in' element={<Login />} />
+              <Route path='/register' element={<Register />} />
+              <Route path='/forgot-password' element={<Forgot />} />
+              <Route path='/reset-password' element={<Forgot />} />
+              <Route path='/single' element={<Single />} />
               <Route path='*' element={<NotFound />} />
             </Routes>
             <Footer />

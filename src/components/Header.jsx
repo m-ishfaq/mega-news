@@ -3,8 +3,8 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { FaSearch, FaEllipsisV, FaRegBookmark } from 'react-icons/fa'
 import { ChevronDownIcon } from '@chakra-ui/icons'
-import user from '../assets/user.png'
 import toast from 'react-hot-toast'
+import data from '../assets/data.json'
 
 const Header = () => {
   const [isLoggedOut, setIsLoggedOut] = useState(false);
@@ -34,7 +34,8 @@ const Header = () => {
       <div className="left">
         <Link to={'/'}>MEGA.news</Link>
         <nav>
-          {/* <Link to={'/category'}>Categories</Link> */}
+          <Link to={'/category'}>Categories</Link>
+          <Link to={'/tags'}>Tags</Link>
           <Link to={'/videos'}>Videos</Link>
           <Link to={'/contact'}>Contact Us</Link>
           <Link to={'/about'}>About Us</Link>
@@ -55,12 +56,13 @@ const Header = () => {
           <HStack >
             <Menu>
               <MenuButton as={Button} rightIcon={<ChevronDownIcon />}>
-                <Image src={user} w={'35px'} h={"35px"} borderRadius={'4'} />
-                Dev360
+                <Image src={data.images.profile.avatar} w={'35px'} h={"35px"} borderRadius={'4'} />
+                {data.images.profile.username}
               </MenuButton>
               <MenuList>
                 <MenuItem><Link to={'/profile'} >Profile</Link></MenuItem>
                 <MenuItem><Link to={'/settings'} >Settings</Link></MenuItem>
+                <MenuItem><Link to={'/sign-in'} >Sign In</Link></MenuItem>
                 <MenuItem><Link onClick={LogOut} >Logout</Link></MenuItem>
               </MenuList>
             </Menu>
