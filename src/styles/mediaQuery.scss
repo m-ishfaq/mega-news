@@ -1,0 +1,218 @@
+@media screen and (max-width: 1321px) {
+    footer {
+        #heading {
+            > h3 {
+                font-size: 0.7rem;
+            }
+        }
+
+        #fAbout > #heading:first-of-type > h3 {
+                font-size: 1.1rem;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    header {
+        > .left {
+            > nav {
+                justify-content: center;
+
+                > a {
+                    font-size: 13px;
+                }
+            }
+        }
+    
+        > .right {
+            > div {
+                &:first-of-type {
+                    width: 60%;
+                }
+    
+                &:last-of-type {
+                    width: 37%;
+                }
+            }
+        }
+    }
+
+    #new > #postX {
+        > img {
+            width: 50%;
+        }
+
+        > div {
+            > div:first-of-type > a {
+                > h4 {
+                    font-size: 1.1vmax;
+                }
+    
+                > p {
+                    font-size: 0.9vmax;
+                }
+            }
+
+            > div:last-of-type {
+                padding: 5px;
+
+                > img {
+                    width: 35px;
+                    height: 35px;
+                }
+            }
+        }
+    }
+
+    #videos > div {
+        > div:first-of-type {
+          width: 40%;  
+        }
+
+        > div:last-of-type {
+            width: 60%;
+
+            > a > div {
+                justify-content: space-around;
+
+                > h4 {
+                    font-size: 1.1vmax;
+                    line-height: 110%;
+                }
+
+                > p {
+                    font-size: 0.8vmax;
+                    line-height: 150%;
+                }
+            }
+        }
+    }
+
+    #profilePostGrid, #popular {
+        gap: 0.4vmax;
+
+        > #postY {
+            > p {
+                padding: 6px 0;
+            }
+
+            > div {
+                padding: 5px;
+
+                > img {
+                    width: 35px;
+                    height: 35px;
+                }
+            }
+        }
+    }
+
+    #category #catItem {
+        font-size: 13px;
+    }
+
+    #about {
+        #heading > h3 {
+            font-size: 0.8rem;
+        }   
+
+        > #information > div > div {
+            margin: 0.5vmax 0;
+            gap: 0.7vmax;
+
+            > p {
+                gap: 0.4vmax;
+
+                > svg {
+                    font-size: 15px;
+                }
+    
+                > span {
+                    font-size: 12px;
+                }
+            }
+        }
+
+        #team > #personas {
+            gap: 0.7vmax;
+        }
+    }
+
+    #profile {
+        #heading > h3 {
+            font-size: 0.8rem;
+        }   
+
+        #postAnalytics {
+            > #satisfaction {
+                width: 30%;
+
+                > #satisfactionScore > #scoreCard {
+                    > svg {
+                        width: 45px;
+                        height: 50px;
+                    }
+                }
+            }
+
+            > #viewsChart {
+                width: 70%;
+            }
+        }
+
+        #profilePostGrid > #profilePost > a > div > p {
+            display: none;
+        }
+    }
+
+    footer #heading {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    header .right {
+        > div:last-of-type {
+            > div > button {
+                font-size: 12px;
+
+                > span > img {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    header .right {
+        > div:last-of-type {
+            > div > button {
+                font-size: 12px;
+
+                > span > img {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+
+    #tags  > div {
+        margin-right: 0.8vmax;
+    }
+
+    #videos > div > div:last-of-type {
+        gap: 0.7rem;
+
+        > a {
+            padding: 0;
+            box-shadow: 0.2px 0.2px 0.2px 0.2px rgba(200, 200, 200, 0.9);
+        }
+    }
+
+    footer #fAbout > #heading:first-of-type > h3 {
+        font-size: 0.9rem;
+    }
+}

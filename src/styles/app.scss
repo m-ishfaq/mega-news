@@ -27,6 +27,7 @@
 @import './forgot';
 @import './single';
 @import './footer';
+@import './mediaQuery.scss';
 
 body {
     padding: 0;
@@ -81,7 +82,7 @@ button {
     justify-content: flex-start;
     align-items: center;
     width: 85vw;
-    margin: 1.5em auto;
+    margin: 0.5em auto;
     gap: 0;
 
     > a {
@@ -149,4 +150,8 @@ button {
             color: $primary;
         }
     }
+}
+
+img {
+    object-fit: cover !important;
 }

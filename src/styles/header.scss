@@ -73,11 +73,11 @@ header {
                         display: flex;
                         justify-content: space-between;
                         align-items: center;
-                        padding-right: 0;
+                        // padding-right: 0;
 
                         > span {
                             display: flex;
-                            justify-content: space-between;
+                            justify-content: flex-end;
                             align-items: center;
                             gap: 0.5rem;
                         }
