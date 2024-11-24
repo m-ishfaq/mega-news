@@ -21,7 +21,7 @@ Since I’m currently busy with work and other commitments, I’m inviting fello
 - **Figma**: Design layout used for the website structure.
 
 ## 📂 **Figma Design**
-You can find the original Figma design I used to create this project here: [Figma Design Link]
+You can find the original Figma design I used to create this project here: https://www.figma.com/design/ZVPOWfyfavYQSvkxdcbDcx/Free-News-%26-Magazine-Figma-Template-%2F-All-pages-(Community)?node-id=1204-8874&node-type=canvas&t=XDb2kmeRst5Wtdnn-0
 
 ## 📢 **Why Contribute?**
 - This is a great opportunity to practice React, work on responsive design, and contribute to an open-source project.
@@ -33,5 +33,9 @@ This project is open-source and free for anyone to use, modify, and distribute. 
 
 ## 🙏 **Thank You**
 Thank you for your time and contributions! Please feel free to reach out if you have any questions, ideas, or suggestions. I look forward to seeing how this project evolves with your help!
+
+## 📬 **Contact**
+- **Portfolio Email**: moosaishfaq.netlify.app
+- **LinkedIn**: https://www.linkedin.com/in/moosa-ishfaq/
 
 #HappyCoding #OpenSource #ReactJS #WebDevelopment #FrontendDevelopment #Contribute #NewsWebsite
